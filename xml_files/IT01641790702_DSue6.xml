@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica versione="FPR12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>00J2W</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02537000404</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>02537000404</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA 2000 SRL</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA CAMPO DEI FIORI, 2/4</Indirizzo>
+                <CAP>47122</CAP>
+                <Comune>FORLI'</Comune>
+                <Provincia>FC</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01585890401</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>CTTGRL55L27H294E</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA CIOTTI GABRIELE *</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA DEI MARTIRI 50</Indirizzo>
+                <CAP>47037</CAP>
+                <Comune>RIMINI</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD04</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2021-10-31</Data>
+                <Numero>2471/01</Numero>
+                <ImportoTotaleDocumento>6.66</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44545</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44545</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>AGHI MACCHINA PRYM</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>2.73000000</PrezzoUnitario>
+                <PrezzoTotale>5.46</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <Descrizione>Rif. Vs. DDT nr. 01/R del 08/10/2021</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswRelStd</TipoDato>
+                    <RiferimentoTesto>Versione #Asw0103#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswSwHouse</TipoDato>
+                    <RiferimentoTesto>TeamSystem S.p.a. / TS Enterprise</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswDestB2B</TipoDato>
+                    <RiferimentoTesto>Recipient #M5UXCR1#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoDoc</TipoDato>
+                    <RiferimentoTesto>Nota credito #TPD02#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCarDoc</TipoDato>
+                    <RiferimentoTesto>Vendita Diretta (Fatturazione al Banco) #CD01#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Percentuali come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Valori come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>5.46</ImponibileImporto>
+                <Imposta>1.20</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP12</ModalitaPagamento>
+                <DataRiferimentoTerminiPagamento>2021-10-31</DataRiferimentoTerminiPagamento>
+                <GiorniTerminiPagamento>61</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2021-12-31</DataScadenzaPagamento>
+                <ImportoPagamento>-6.66</ImportoPagamento>
+            </DettaglioPagamento>
+        </DatiPagamento>
+        <Allegati>
+            <NomeAttachment>Doc_2471_01_20211031.pdf</NomeAttachment>
+            <FormatoAttachment>PDF</FormatoAttachment>
+            <Attachment>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IB99cW9X01SHuhzKpV9oEJrLLV/AtGJeM2E5PIOgcF5/xwsABr8iS9aWyqMFHnNzDlmIS9mLh8yv3XHxISzMPuUQ/EaC0Oe6H54W7YRw9RMtgB4fb2c3cop2fbniWW5G4cSxYhQmfl09iFZagb7KciOfjZM4eZUs3ZlMvRFwFsX6tLc7lGoUPZYP5YqTciLe88RwAAwX3fjbNOGMb8p2Xy7PWLEswxhSFCex6nlaPKRP1cMP4NQR/2lfHqr2eWHOied5lDo1x+G1YqYysS7IxnXBzR0mC82pM2IAQdvizYIFskz90AiA5Ok9CU7v5yZaKp+BAPkajAH5vwI+bv4L8bw8EAplbmRzdHJlYW0KZW5kb2JqCjEgMCBvYmoKPDwvQ29udGVudHMgNCAwIFIvVHlwZS9QYWdlL1Jlc291cmNlczw8L1Byb2NTZXQgWy9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUldL0ZvbnQ8PC9GMSAyIDAgUi9GMiAzIDAgUj4+Pj4vUGFyZW50IDUgMCBSL01lZGlhQm94WzAgMCA1OTUuMjggODQxLjg4XT4+CmVuZG9iagoyIDAgb2JqCjw8L1N1YnR5cGUvVHlwZTEvVHlwZS9Gb250L0Jhc2VGb250L0hlbHZldGljYS1Cb2xkL0VuY29kaW5nL1dpbkFuc2lFbmNvZGluZz4+CmVuZG9iagozIDAgb2JqCjw8L1N1YnR5cGUvVHlwZTEvVHlwZS9Gb250L0Jhc2VGb250L0hlbHZldGljYS9FbmNvZGluZy9XaW5BbnNpRW5jb2Rpbmc+PgplbmRvYmoKNSAwIG9iago8PC9LaWRzWzEgMCBSXS9UeXBlL1BhZ2VzL0NvdW50IDEvSVRYVCgxLjAuNSk+PgplbmRvYmoKNiAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgNSAwIFI+PgplbmRvYmoKNyAwIG9iago8PC9Nb2REYXRlKEQ6MjAyMTExMDgwOTA0NDIrMDEnMDAnKS9DcmVhdGlvbkRhdGUoRDoyMDIxMTEwODA5MDQ0MiswMScwMCcpL1Byb2R1Y2VyKE9wZW5QREYgMS4wLjUpPj4KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMjk3NyAwMDAwMCBuIAowMDAwMDAzMTQ5IDAwMDAwIG4gCjAwMDAwMDMyNDIgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAzMzMwIDAwMDAwIG4gCjAwMDAwMDMzOTMgMDAwMDAgbiAKMDAwMDAwMzQzOCAwMDAwMCBuIAp0cmFpbGVyCjw8L0luZm8gNyAwIFIvSUQgWzwwYjU0OTljNmZlMTJiYTc0Y2Y4M2Q1ODRmNGE5ZDhiMD48NjYwMzA1MDUwY2M0YzRjNzA4NWExNTVlZjQ0YzE0NmM+XS9Sb290IDYgMCBSL1NpemUgOD4+CnN0YXJ0eHJlZgozNTUzCiUlRU9GCg==</Attachment>
+        </Allegati>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

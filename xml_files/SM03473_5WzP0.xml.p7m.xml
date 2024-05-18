@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica versione="FPR12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>SM</IdPaese>
+                <IdCodice>03473</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>T+0000020T</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>0000000</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02205000405</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>02205000405</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>CLIMA SERVICE SRL</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via Lea Giaccaglia</Indirizzo>
+                <NumeroCivico>28</NumeroCivico>
+                <CAP>47900</CAP>
+                <Comune>Rimini</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01585890401</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>CTTGRL55L27H294E</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA CIOTTI GABRIELE</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via dei Martiri</Indirizzo>
+                <NumeroCivico>50</NumeroCivico>
+                <CAP>47924</CAP>
+                <Comune>Rimini</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>SM</IdPaese>
+                    <IdCodice>03473</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>Passepartout S.p.A</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2021-11-16</Data>
+                <Numero>3887</Numero>
+                <ImportoTotaleDocumento>145.00</ImportoTotaleDocumento>
+                <Causale>Fattura immediata contratto assistenza</Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Riferimento contratto : MERCERIA CIOTTI GABRIELE </Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Via dei Martiri 50 - 47924 Rimini (RN) </Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Contratto nr.  *  Data contratto 28/01/2021 </Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>4</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Canone annuale manutenzione programmata </Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>Nr</UnitaMisura>
+                <PrezzoUnitario>138.00</PrezzoUnitario>
+                <PrezzoTotale>138.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N6.7</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>5</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Tipologia abbonamento : BB - Manutenzione e assistenza biennale caldaie &lt; 35 kw </Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>6</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Validita' anno 2021 </Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>7</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Intervento eseguito presso : MERCERIA CIOTTI GABRIELE Via dei Martiri, 50 - 47924 Rimini (RN)</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>8</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Data intervento 16/11/2021</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>9</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Impianto: Q 24S Matricola: PDJ33015</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>10</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>77</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Pulizia Biennale &lt; 35 kW</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>11</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>CEEGCF</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Controllo efficienza energetica generatore calore a fiamma</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>12</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>CICEE</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Autocertificazione regionale CEE</Descrizione>
+                <Quantita>1.00</Quantita>
+                <PrezzoUnitario>7.00</PrezzoUnitario>
+                <PrezzoTotale>7.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>13</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Articolo</CodiceTipo>
+                    <CodiceValore>.</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Vi informiamo che stiamo trattando i Vs. dati nel rispetto degli artt.13 e 14 del Regolamento UE 679/2016 Contributo CONAI assolto</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <ImponibileImporto>7.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <RiferimentoNormativo>Escl. Art.15</RiferimentoNormativo>
+            </DatiRiepilogo>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N6.7</Natura>
+                <ImponibileImporto>138.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <RiferimentoNormativo>Reverse Charge art.17 comma 6 lett.a-ter</RiferimentoNormativo>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

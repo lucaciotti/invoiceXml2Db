@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica versione="FPR12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>00MUM</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02537000404</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>02537000404</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA 2000 SRL</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA CAMPO DEI FIORI, 2/4</Indirizzo>
+                <CAP>47122</CAP>
+                <Comune>FORLI'</Comune>
+                <Provincia>FC</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01585890401</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>CTTGRL55L27H294E</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA CIOTTI GABRIELE *</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA DEI MARTIRI 50</Indirizzo>
+                <CAP>47037</CAP>
+                <Comune>RIMINI</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2022-04-30</Data>
+                <Numero>868/01</Numero>
+                <ImportoTotaleDocumento>121.89</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+            <DatiDDT>
+                <NumeroDDT>3364/00</NumeroDDT>
+                <DataDDT>2022-04-11</DataDDT>
+                <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>3368/00</NumeroDDT>
+                <DataDDT>2022-04-11</DataDDT>
+                <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>7</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>8</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>9</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+            </DatiDDT>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>Ddt nr. 3364/00  del 11/04/2022</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44269</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44269</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>9900025442698</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>9900025442698</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>VELCRO AUSONIA M/M 20 MASCHIO+FEMMINA</Descrizione>
+                <Quantita>25.00</Quantita>
+                <UnitaMisura>MT</UnitaMisura>
+                <PrezzoUnitario>0.96000000</PrezzoUnitario>
+                <PrezzoTotale>24.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <Descrizione>Ddt nr. 3368/00  del 11/04/2022</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>4</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>43849</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>43849</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8005295045233</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8005295045233</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>COTONE PICCOLO CUCIRINI 3 STELLE</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>SC</UnitaMisura>
+                <PrezzoUnitario>17.49000000</PrezzoUnitario>
+                <PrezzoTotale>17.49</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>5</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>4002276111752</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>4002276111752</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>86702</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>86702</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PRYM 611 175 INFILAAGHI</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>CA</UnitaMisura>
+                <PrezzoUnitario>0.95000000</PrezzoUnitario>
+                <PrezzoTotale>0.95</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>6</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>4002276111752</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>4002276111752</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>86702</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>86702</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PRYM 611 175 INFILAAGHI</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>CA</UnitaMisura>
+                <PrezzoUnitario>0.95000000</PrezzoUnitario>
+                <PrezzoTotale>0.95</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>7</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>24699</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>24699</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>9900003246997</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>9900003246997</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CERNIERE NYLON CM.50</Descrizione>
+                <Quantita>3.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.43500000</PrezzoUnitario>
+                <ScontoMaggiorazione>
+                    <Tipo>SC</Tipo>
+                    <Percentuale>10.00</Percentuale>
+                </ScontoMaggiorazione>
+                <PrezzoTotale>1.17</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>8</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>24700</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>24700</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>9900003247000</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>9900003247000</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CERNIERE NYLON CM.55</Descrizione>
+                <Quantita>3.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.47000000</PrezzoUnitario>
+                <ScontoMaggiorazione>
+                    <Tipo>SC</Tipo>
+                    <Percentuale>10.00</Percentuale>
+                </ScontoMaggiorazione>
+                <PrezzoTotale>1.27</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>9</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>24698</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>24698</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>9900003246980</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>9900003246980</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CERNIERE NYLON CM.45</Descrizione>
+                <Quantita>3.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.40000000</PrezzoUnitario>
+                <ScontoMaggiorazione>
+                    <Tipo>SC</Tipo>
+                    <Percentuale>10.00</Percentuale>
+                </ScontoMaggiorazione>
+                <PrezzoTotale>1.08</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>10</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>4053859087339</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>4053859087339</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>43886</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>43886</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>BIG BOX 50 RC FILOFORT PICCOLO 63,00 SC.20% 50,40</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>SC</UnitaMisura>
+                <PrezzoUnitario>50.40000000</PrezzoUnitario>
+                <PrezzoTotale>50.40</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>11</NumeroLinea>
+                <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+                <Descrizione>Addebito spese incasso</Descrizione>
+                <Quantita>1.00</Quantita>
+                <PrezzoUnitario>2.60000000</PrezzoUnitario>
+                <PrezzoTotale>2.60</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>12</NumeroLinea>
+                <Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswRelStd</TipoDato>
+                    <RiferimentoTesto>Versione #Asw0103#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswSwHouse</TipoDato>
+                    <RiferimentoTesto>TeamSystem S.p.a. / TS Enterprise</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswDestB2B</TipoDato>
+                    <RiferimentoTesto>Recipient #M5UXCR1#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoDoc</TipoDato>
+                    <RiferimentoTesto>Fattura #TPD01#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCarDoc</TipoDato>
+                    <RiferimentoTesto>Vendita Differita (Fatturazione Differita) #CD02#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Percentuali come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Valori come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>99.91</ImponibileImporto>
+                <Imposta>21.98</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP12</ModalitaPagamento>
+                <DataRiferimentoTerminiPagamento>2022-04-30</DataRiferimentoTerminiPagamento>
+                <GiorniTerminiPagamento>61</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2022-06-30</DataScadenzaPagamento>
+                <ImportoPagamento>121.89</ImportoPagamento>
+                <ABI>07090</ABI>
+                <CAB>24208</CAB>
+            </DettaglioPagamento>
+        </DatiPagamento>
+        <Allegati>
+            <NomeAttachment>Doc_868_01_20220430.pdf</NomeAttachment>
+            <FormatoAttachment>PDF</FormatoAttachment>
+            <Attachment>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fUF72TO919V127u2OTaxzkpZpUoZYEroRGoLiggIqqqzKvKNWl/NoCNy5k+yJhK61FMyImdmpgRuVpv5VWxLoVSb3urrX7MLWMs3cJC17Nf9Q/RUjuujXAC+UCD0oT0cn6JllBa5mvMAdH/edb5UHXp/aBIO99Syi5WQIyF5Sz1OAozJvcTCIXKi8wlX9qMgIt9OGdkGFqW6JlDwLO99Lvd3jc6+T819k/ApEpWRihIQLPb9t7+yjl40csSJd3S5miAEMNSPx/b4FP0GqtCjjYPpD6geb5u77e5LpKMKLrICeuxzK6F3i2E5vXxHIntrTH+I4xBoXV9EiiaRfcXDzC9qhAtcYfQKLeYXcnih4RR3qmOXDHCob6zyiSOaZxLIAb38Uf8vlx9n/wXDT6nCCmVuZHN0cmVhbQplbmRvYmoKMSAwIG9iago8PC9Db250ZW50cyA0IDAgUi9UeXBlL1BhZ2UvUmVzb3VyY2VzPDwvUHJvY1NldCBbL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSV0vRm9udDw8L0YxIDIgMCBSL0YyIDMgMCBSPj4+Pi9QYXJlbnQgNSAwIFIvTWVkaWFCb3hbMCAwIDU5NS4yOCA4NDEuODhdPj4KZW5kb2JqCjIgMCBvYmoKPDwvU3VidHlwZS9UeXBlMS9UeXBlL0ZvbnQvQmFzZUZvbnQvSGVsdmV0aWNhLUJvbGQvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nPj4KZW5kb2JqCjMgMCBvYmoKPDwvU3VidHlwZS9UeXBlMS9UeXBlL0ZvbnQvQmFzZUZvbnQvSGVsdmV0aWNhL0VuY29kaW5nL1dpbkFuc2lFbmNvZGluZz4+CmVuZG9iago1IDAgb2JqCjw8L0tpZHNbMSAwIFJdL1R5cGUvUGFnZXMvQ291bnQgMS9JVFhUKDEuMC41KT4+CmVuZG9iago2IDAgb2JqCjw8L1R5cGUvQ2F0YWxvZy9QYWdlcyA1IDAgUj4+CmVuZG9iago3IDAgb2JqCjw8L01vZERhdGUoRDoyMDIyMDUwOTExMTQxOCswMicwMCcpL0NyZWF0aW9uRGF0ZShEOjIwMjIwNTA5MTExNDE4KzAyJzAwJykvUHJvZHVjZXIoT3BlblBERiAxLjAuNSk+PgplbmRvYmoKeHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAzOTIxIDAwMDAwIG4gCjAwMDAwMDQwOTMgMDAwMDAgbiAKMDAwMDAwNDE4NiAwMDAwMCBuIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDQyNzQgMDAwMDAgbiAKMDAwMDAwNDMzNyAwMDAwMCBuIAowMDAwMDA0MzgyIDAwMDAwIG4gCnRyYWlsZXIKPDwvSW5mbyA3IDAgUi9JRCBbPGI3YWI1NWRiOTQyNWI5MTRkZTI4NmJkYmEyNjI0YjRiPjw1MTA3ODJlMGYwOTJhYWY1YzljN2NkYTcxYWZiOTVlZD5dL1Jvb3QgNiAwIFIvU2l6ZSA4Pj4Kc3RhcnR4cmVmCjQ0OTcKJSVFT0YK</Attachment>
+        </Allegati>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica versione="FPR12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>05006900962</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>yhgbgV06CW</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>04276840487</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>04276840487</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>COOPERSYSTEM S. C. ADERENTE AL GRUPPO BANCARIO COOP.VO ICCREA</Denominazione>
+                </Anagrafica>
+                <ProvinciaAlbo>FI</ProvinciaAlbo>
+                <NumeroIscrizioneAlbo>017-58847</NumeroIscrizioneAlbo>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA MEUCCI 17/19</Indirizzo>
+                <CAP>50012</CAP>
+                <Comune>BAGNO A RIPOLI</Comune>
+                <Provincia>FI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+            <IscrizioneREA>
+                <Ufficio>FI</Ufficio>
+                <NumeroREA>435492</NumeroREA>
+                <SocioUnico>SM</SocioUnico>
+                <StatoLiquidazione>LN</StatoLiquidazione>
+            </IscrizioneREA>
+            <Contatti>
+                <Email>fatturazione@coopersystem.bcc.it</Email>
+            </Contatti>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01585890401</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01585890401</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>CIOTTI GABRIELE</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA DEI MARTIRI 50</Indirizzo>
+                <CAP>47900</CAP>
+                <Comune>RIMINI</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2019-06-30</Data>
+                <Numero>061336-0C0</Numero>
+                <ImportoTotaleDocumento>38.43</ImportoTotaleDocumento>
+                <Causale>FATTURA DI VENDITA</Causale>
+                <Causale>******************************COMUNICAZIONE IMPORTANTE      Coopersystem in quanto facente parte del Gruppo IVA del     Gruppo Bancario Cooperativo   Iccrea comunica il cambio     della propria P.IVA.</Causale>
+                <Causale>Dal 1    LUGLIO 2019 il nuovo numero   di p.iva sarà 15240741007.    Il C.F. 04276840487 rimane    invariato.                    Dal  1 luglio 2019 cambia     anche il codice SDI che sarà  il seguent</Causale>
+                <Causale>e: 9GHPHLV</Causale>
+            </DatiGeneraliDocumento>
+            <DatiDDT>
+                <NumeroDDT>105383</NumeroDDT>
+                <DataDDT>2019-06-30</DataDDT>
+                <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiTrasporto/>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice interno</CodiceTipo>
+                    <CodiceValore>NDSKC</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SERVIZI POS DESKTOP CLESS 7/19 -9/19</Descrizione>
+                <Quantita>1.00000000</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>30.00000000</PrezzoUnitario>
+                <PrezzoTotale>30.00000000</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>G2_Note</TipoDato>
+                    <RiferimentoTesto>Contratto gestione terminali POS sottoscritto con:</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>G2_Note</TipoDato>
+                    <RiferimentoTesto>Malatestiana Banca Della Pro. Di Rimini Terminale 85060135</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>G2_Note</TipoDato>
+                    <RiferimentoTesto>lug/19: Canone 10,00 ago/19: Canone 10,00 set/19: Canone</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>G2_Note</TipoDato>
+                    <RiferimentoTesto>10,00</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice interno</CodiceTipo>
+                    <CodiceValore>SPE</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SPESE AMMINISTRATIVE</Descrizione>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>1.50000000</PrezzoUnitario>
+                <PrezzoTotale>1.50000000</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>31.50</ImponibileImporto>
+                <Imposta>6.93</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP21</ModalitaPagamento>
+                <DataRiferimentoTerminiPagamento>2019-06-30</DataRiferimentoTerminiPagamento>
+                <GiorniTerminiPagamento>36</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2019-08-05</DataScadenzaPagamento>
+                <ImportoPagamento>38.43</ImportoPagamento>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

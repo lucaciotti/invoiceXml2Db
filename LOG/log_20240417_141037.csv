@@ -1,0 +1,5 @@
+datatime;operation;info
+04/17/2024, 14:10:11;AutoImport;"1/2 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT_00699130399_0000086jiE_202010009465.xml"""
+04/17/2024, 14:10:15;Error;not well-formed (invalid token): line 1, column 1
+04/17/2024, 14:10:15;AutoImport;"2/2 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT_01573850516_9001933420_1000233001638124.xml"""
+04/17/2024, 14:10:35;Error;Documento non inerente alla ditta

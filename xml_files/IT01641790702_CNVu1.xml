@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica versione="FPR12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>00HUP</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02537000404</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>02537000404</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA 2000 SRL</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA CAMPO DEI FIORI, 2/4</Indirizzo>
+                <CAP>47122</CAP>
+                <Comune>FORLI'</Comune>
+                <Provincia>FC</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01585890401</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>CTTGRL55L27H294E</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA CIOTTI GABRIELE *</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA DEI MARTIRI 50</Indirizzo>
+                <CAP>47037</CAP>
+                <Comune>RIMINI</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2021-09-30</Data>
+                <Numero>2049/01</Numero>
+                <ImportoTotaleDocumento>97.62</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+            <DatiDDT>
+                <NumeroDDT>7800/00</NumeroDDT>
+                <DataDDT>2021-09-20</DataDDT>
+                <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>7</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>8</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>9</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>11</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>12</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>13</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>14</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>15</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>16</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>17</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>18</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>19</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>20</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>21</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>22</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>23</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>24</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>25</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>26</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>27</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>28</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>29</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>30</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>31</RiferimentoNumeroLinea>
+            </DatiDDT>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>Ddt nr. 7800/00  del 20/09/2021</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>46330</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>46330</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>FUSTO 3100/090 CALICOT B.CO</Descrizione>
+                <Quantita>2.00</Quantita>
+                <UnitaMisura>MT</UnitaMisura>
+                <PrezzoUnitario>3.60000000</PrezzoUnitario>
+                <PrezzoTotale>7.20</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>4002271255475</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>4002271255475</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>45429</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>45429</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PRYM 125 547 AGHI LANA</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>CA</UnitaMisura>
+                <PrezzoUnitario>0.85000000</PrezzoUnitario>
+                <PrezzoTotale>0.85</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>4</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>4002271255475</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>4002271255475</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>45429</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>45429</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PRYM 125 547 AGHI LANA</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>CA</UnitaMisura>
+                <PrezzoUnitario>0.85000000</PrezzoUnitario>
+                <PrezzoTotale>0.85</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>5</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>25137</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>25137</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8017705251370</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8017705251370</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SPILLE SIC.NICH.INF.1/4 SC.1 GR.</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>3.50000000</PrezzoUnitario>
+                <PrezzoTotale>3.50</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>6</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44444</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44444</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8017705571027</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8017705571027</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>METRI 760/SP ROTONDO X 12</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>DZ</UnitaMisura>
+                <PrezzoUnitario>12.96000000</PrezzoUnitario>
+                <PrezzoTotale>12.96</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>7</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44200</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44200</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8010091009624</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8010091009624</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ELASTICO 449 LAVATRICE N.10 B. X 20 MM.7</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>3.90000000</PrezzoUnitario>
+                <PrezzoTotale>3.90</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>8</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/02</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.15000000</PrezzoUnitario>
+                <PrezzoTotale>1.15</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>9</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44197</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44197</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8010091009648</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8010091009648</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ELASTICO 449 LAVATRICE N.14 B. X 20 MM.9</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>4.50000000</PrezzoUnitario>
+                <PrezzoTotale>4.50</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>10</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/02</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.15000000</PrezzoUnitario>
+                <PrezzoTotale>1.15</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>11</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44198</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44198</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8010091009655</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8010091009655</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ELASTICO 449 LAVATRICE N.16 B. X 20 MM.10</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>5.40000000</PrezzoUnitario>
+                <PrezzoTotale>5.40</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>12</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/02</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.15000000</PrezzoUnitario>
+                <PrezzoTotale>1.15</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>13</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>4053859136983</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>4053859136983</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>43838</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>43838</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>FILOFORT MEDIO MT.300 X 6</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>SC</UnitaMisura>
+                <PrezzoUnitario>11.90000000</PrezzoUnitario>
+                <PrezzoTotale>11.90</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>14</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50856</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217001670</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/02</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.15000000</PrezzoUnitario>
+                <PrezzoTotale>1.15</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>15</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44545</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44545</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>9900001445453</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>9900001445453</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>AGHI MACCHINA PRYM</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>2.73000000</PrezzoUnitario>
+                <PrezzoTotale>2.73</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>16</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/03</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.20000000</PrezzoUnitario>
+                <PrezzoTotale>1.20</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>17</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>44545</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>44545</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>9900001445453</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>9900001445453</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>AGHI MACCHINA PRYM</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>2.73000000</PrezzoUnitario>
+                <PrezzoTotale>2.73</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>18</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/03</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.20000000</PrezzoUnitario>
+                <PrezzoTotale>1.20</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>19</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/03</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.20000000</PrezzoUnitario>
+                <PrezzoTotale>1.20</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>20</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>50857</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217021678</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PROLUNGA PER REGGISENO 167/03</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.20000000</PrezzoUnitario>
+                <PrezzoTotale>1.20</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>21</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>68574</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>68574</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8017705251318</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8017705251318</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SPILLE SIC.NICH.INF.0,3 SC.1 GR.</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>SC</UnitaMisura>
+                <PrezzoUnitario>3.00000000</PrezzoUnitario>
+                <PrezzoTotale>3.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>22</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>23</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>24</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>25</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>26</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>27</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>28</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>29</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72065</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217200028</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TOPPE 2/M MINI OLIMPIC TERMO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>0.65000000</PrezzoUnitario>
+                <PrezzoTotale>0.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>30</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72662</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72662</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217117005</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217117005</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SET MARCABIANCHERIA 117</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.65000000</PrezzoUnitario>
+                <PrezzoTotale>1.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>31</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>72662</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>72662</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtEan</CodiceTipo>
+                    <CodiceValore>8000217117005</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>BarCode</CodiceTipo>
+                    <CodiceValore>8000217117005</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SET MARCABIANCHERIA 117</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>1.65000000</PrezzoUnitario>
+                <PrezzoTotale>1.65</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>32</NumeroLinea>
+                <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+                <Descrizione>Addebito spese incasso</Descrizione>
+                <Quantita>1.00</Quantita>
+                <PrezzoUnitario>2.60000000</PrezzoUnitario>
+                <PrezzoTotale>2.60</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>33</NumeroLinea>
+                <Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswRelStd</TipoDato>
+                    <RiferimentoTesto>Versione #Asw0103#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswSwHouse</TipoDato>
+                    <RiferimentoTesto>TeamSystem S.p.a. / TS Enterprise</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswDestB2B</TipoDato>
+                    <RiferimentoTesto>Recipient #M5UXCR1#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoDoc</TipoDato>
+                    <RiferimentoTesto>Fattura #TPD01#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCarDoc</TipoDato>
+                    <RiferimentoTesto>Vendita Differita (Fatturazione Differita) #CD02#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Percentuali come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Valori come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>80.02</ImponibileImporto>
+                <Imposta>17.60</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP12</ModalitaPagamento>
+                <DataRiferimentoTerminiPagamento>2021-09-30</DataRiferimentoTerminiPagamento>
+                <GiorniTerminiPagamento>61</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2021-11-30</DataScadenzaPagamento>
+                <ImportoPagamento>97.62</ImportoPagamento>
+                <ABI>07090</ABI>
+                <CAB>24208</CAB>
+            </DettaglioPagamento>
+        </DatiPagamento>
+        <Allegati>
+            <NomeAttachment>Doc_2049_01_20210930.pdf</NomeAttachment>
+            <FormatoAttachment>PDF</FormatoAttachment>
+            <Attachment>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t/ds5gKLbk6JIGSXXc/4H0uEB1pfZ4TGNKXkLblZXyvH5zSZ36jqbRyRCPqWsdEU+o92KwLidQT/2+3H1f8AXK9LrAplbmRzdHJlYW0KZW5kb2JqCjkgMCBvYmoKPDwvQ29udGVudHMgOCAwIFIvVHlwZS9QYWdlL1Jlc291cmNlczw8L1Byb2NTZXQgWy9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUldL0ZvbnQ8PC9GMSAyIDAgUi9GMiAzIDAgUj4+Pj4vUGFyZW50IDUgMCBSL01lZGlhQm94WzAgMCA1OTUuMjggODQxLjg4XT4+CmVuZG9iagoyIDAgb2JqCjw8L1N1YnR5cGUvVHlwZTEvVHlwZS9Gb250L0Jhc2VGb250L0hlbHZldGljYS1Cb2xkL0VuY29kaW5nL1dpbkFuc2lFbmNvZGluZz4+CmVuZG9iagozIDAgb2JqCjw8L1N1YnR5cGUvVHlwZTEvVHlwZS9Gb250L0Jhc2VGb250L0hlbHZldGljYS9FbmNvZGluZy9XaW5BbnNpRW5jb2Rpbmc+PgplbmRvYmoKNSAwIG9iago8PC9LaWRzWzEgMCBSIDcgMCBSIDkgMCBSXS9UeXBlL1BhZ2VzL0NvdW50IDMvSVRYVCgxLjAuNSk+PgplbmRvYmoKMTAgMCBvYmoKPDwvVHlwZS9DYXRhbG9nL1BhZ2VzIDUgMCBSPj4KZW5kb2JqCjExIDAgb2JqCjw8L01vZERhdGUoRDoyMDIxMTAwNjEwNDgwNSswMicwMCcpL0NyZWF0aW9uRGF0ZShEOjIwMjExMDA2MTA0ODA1KzAyJzAwJykvUHJvZHVjZXIoT3BlblBERiAxLjAuNSk+PgplbmRvYmoKeHJlZgowIDEyCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMzMxNiAwMDAwMCBuIAowMDAwMDA5MjU3IDAwMDAwIG4gCjAwMDAwMDkzNTAgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDA5NDM4IDAwMDAwIG4gCjAwMDAwMDM0ODggMDAwMDAgbiAKMDAwMDAwNjUxMyAwMDAwMCBuIAowMDAwMDA2Njg1IDAwMDAwIG4gCjAwMDAwMDkwODUgMDAwMDAgbiAKMDAwMDAwOTUxMyAwMDAwMCBuIAowMDAwMDA5NTU5IDAwMDAwIG4gCnRyYWlsZXIKPDwvSW5mbyAxMSAwIFIvSUQgWzxhNWFkMDQxNjgyMjE5ZWRjMjFjZmNjZGQyZTgyMTgxOD48MDc2MDNhNjJjNDVmMmEwNzI3MDY2Y2RlZTBjMDlkYjM+XS9Sb290IDEwIDAgUi9TaXplIDEyPj4Kc3RhcnR4cmVmCjk2NzUKJSVFT0YK</Attachment>
+        </Allegati>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

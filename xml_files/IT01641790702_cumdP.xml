@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica versione="FPR12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>001BF</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02537000404</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>02537000404</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA 2000 SRL</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA CAMPO DEI FIORI, 2/4</Indirizzo>
+                <CAP>47122</CAP>
+                <Comune>FORLI'</Comune>
+                <Provincia>FC</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01585890401</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>CTTGRL55L27H294E</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>MERCERIA CIOTTI GABRIELE *</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA DEI MARTIRI 50</Indirizzo>
+                <CAP>47037</CAP>
+                <Comune>RIMINI</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD04</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2019-03-30</Data>
+                <Numero>521/01</Numero>
+                <ImportoTotaleDocumento>36.60</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>AswArtFor</CodiceTipo>
+                    <CodiceValore>47019</CodiceValore>
+                </CodiceArticolo>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>47019</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>NASTRO 22355 SATIN 100 X 25 MT.</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>30.00000000</PrezzoUnitario>
+                <PrezzoTotale>30.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <Descrizione>Rif. Vs. DDT nr. 07 del 08/03/2019</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
+                <PrezzoUnitario>0.00000000</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswRelStd</TipoDato>
+                    <RiferimentoTesto>Versione #Asw0103#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswSwHouse</TipoDato>
+                    <RiferimentoTesto>TeamSystem S.p.a. / TS Enterprise</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswDestB2B</TipoDato>
+                    <RiferimentoTesto>Recipient #M5UXCR1#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoDoc</TipoDato>
+                    <RiferimentoTesto>Nota credito #TPD02#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCarDoc</TipoDato>
+                    <RiferimentoTesto>Vendita Diretta (Fatturazione al Banco) #CD01#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Percentuali come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Valori come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>30.00</ImponibileImporto>
+                <Imposta>6.60</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <Allegati>
+            <NomeAttachment>Doc_521_01_20190330.pdf</NomeAttachment>
+            <FormatoAttachment>PDF</FormatoAttachment>
+            <Attachment>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/wINCmVuZHN0cmVhbQ0KZW5kb2JqDQo1IDAgb2JqDQo8PA0KL1BhcmVudCAyIDAgUg0KL1Jlc291cmNlcyAzIDAgUg0KL01lZGlhQm94IFswIDAgNTk1IDg0Ml0NCi9Db250ZW50cyA0IDAgUg0KL1R5cGUgL1BhZ2UNCj4+DQplbmRvYmoNCjYgMCBvYmoNCjw8DQovU3VidHlwZSAvVHlwZTENCi9OYW1lIC9GMQ0KL0Jhc2VGb250IC9IZWx2ZXRpY2ENCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nDQovVHlwZSAvRm9udA0KPj4NCmVuZG9iag0KNyAwIG9iag0KPDwNCi9TdWJ0eXBlIC9UeXBlMQ0KL05hbWUgL0YzDQovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkDQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZw0KL1R5cGUgL0ZvbnQNCj4+DQplbmRvYmoNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL1BhZ2VzIDIgMCBSDQo+Pg0KZW5kb2JqDQoyIDAgb2JqDQo8PA0KL0NvdW50IDENCi9LaWRzIFs1IDAgUl0NCi9UeXBlIC9QYWdlcw0KPj4NCmVuZG9iag0KMyAwIG9iag0KPDwNCi9Gb250IDw8DQovRjMgNyAwIFINCi9GMSA2IDAgUg0KPj4NCi9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQ0KPj4NCmVuZG9iag0KeHJlZg0KMCA4DQowMDAwMDAwMDAwIDY1NTM1IGYNCjAwMDAwMDIxNzMgMDAwMDAgbg0KMDAwMDAwMjIyOCAwMDAwMCBuDQowMDAwMDAyMjkyIDAwMDAwIG4NCjAwMDAwMDAwMTcgMDAwMDAgbg0KMDAwMDAwMTgyMyAwMDAwMCBuDQowMDAwMDAxOTM2IDAwMDAwIG4NCjAwMDAwMDIwNTIgMDAwMDAgbg0KdHJhaWxlcg0KPDwNCi9Sb290IDEgMCBSDQovSUQgWzw2NTM2MzQ2NjY0NjM2MzMxMzIzMjMxMzMzNDM3MzgzOTYyMzgzMzM2MzIzNzMzMzk2MjMxNjIzNjY1NjE2NTY0PiA8NjUzNjM0NjY2NDYzNjMzMTMyMzIzMTMzMzQzNzM4Mzk2MjM4MzMzNjMyMzczMzM5NjIzMTYyMzY2NTYxNjU2ND5dDQovU2l6ZSA4DQo+Pg0Kc3RhcnR4cmVmDQoyNDAwDQolJUVPRg==</Attachment>
+        </Allegati>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

@@ -1,0 +1,3 @@
+datatime;operation;info
+04/17/2024, 14:53:14;AutoImport;"1/1 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT_00699130399_0000086jiE_202010009465.xml"""
+04/17/2024, 14:53:25;Error;replace() takes at least 2 arguments (1 given)

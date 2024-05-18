@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica versione="FPR12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>04030410288</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>8132021</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02439740404</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>DMRSFN63D42F839X</CodiceFiscale>
+                <Anagrafica>
+                    <Nome>STEFANIA</Nome>
+                    <Cognome>DI MAURO</Cognome>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via Portici di Torlonia n.16</Indirizzo>
+                <CAP>47822</CAP>
+                <Comune>Santarcangelo di Romagna</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+            <Contatti>
+                <Telefono>0541-781709</Telefono>
+                <Fax>0541-369728</Fax>
+                <Email>sdimauro@notariato.it</Email>
+            </Contatti>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01585890401</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>CTTGRL55L27H294E</CodiceFiscale>
+                <Anagrafica>
+                    <Nome>GABRIELE</Nome>
+                    <Cognome>CIOTTI</Cognome>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via dei Martiri</Indirizzo>
+                <NumeroCivico>50</NumeroCivico>
+                <CAP>47924</CAP>
+                <Comune>Rimini</Comune>
+                <Provincia>RN</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02046570426</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>Namirial S.p.A</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD06</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2021-11-18</Data>
+                <Numero>813</Numero>
+                <DatiRitenuta>
+                    <TipoRitenuta>RT01</TipoRitenuta>
+                    <ImportoRitenuta>68.12</ImportoRitenuta>
+                    <AliquotaRitenuta>20.00</AliquotaRitenuta>
+                    <CausalePagamento>A</CausalePagamento>
+                </DatiRitenuta>
+                <ImportoTotaleDocumento>668.12</ImportoTotaleDocumento>
+                <Causale>Scioglimento impresa familiare Repertorio n.57337/14740 del 18.11.2021</Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>Imposta di Registro</Descrizione>
+                <PrezzoUnitario>200.00</PrezzoUnitario>
+                <PrezzoTotale>200.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <Descrizione>Imposta di Bollo e marche comuni</Descrizione>
+                <PrezzoUnitario>45.00</PrezzoUnitario>
+                <PrezzoTotale>45.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <Descrizione>Tassa Archivio Notarile</Descrizione>
+                <PrezzoUnitario>4.60</PrezzoUnitario>
+                <PrezzoTotale>4.60</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>4</NumeroLinea>
+                <Descrizione>Visura camerale</Descrizione>
+                <PrezzoUnitario>3.00</PrezzoUnitario>
+                <PrezzoTotale>3.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>5</NumeroLinea>
+                <Descrizione>Onorario e repertorio</Descrizione>
+                <PrezzoUnitario>316.59</PrezzoUnitario>
+                <PrezzoTotale>316.59</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>6</NumeroLinea>
+                <Descrizione>Contributo C.N.N. e tassa Consiliare</Descrizione>
+                <PrezzoUnitario>22.00</PrezzoUnitario>
+                <PrezzoTotale>22.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>7</NumeroLinea>
+                <Descrizione>Diritti Archivio</Descrizione>
+                <PrezzoUnitario>2.00</PrezzoUnitario>
+                <PrezzoTotale>2.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <ImponibileImporto>252.60</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <RiferimentoNormativo>Iva esclusa ex art. 15</RiferimentoNormativo>
+            </DatiRiepilogo>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>340.59</ImponibileImporto>
+                <Imposta>74.93</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

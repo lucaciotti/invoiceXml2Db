@@ -1,0 +1,19 @@
+datatime;operation;info
+03/27/2024, 16:20:47;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:01:54;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:02:14;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:02:43;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:03:02;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:03:41;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:06:05;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:06:07;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:06:21;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:09:22;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:09:31;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:09:45;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:10:22;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:11:02;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:12:10;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:12:14;Error;not well-formed (invalid token): line 1, column 1
+04/03/2024, 14:41:57;AutoImport;"1/1 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT02002750483_00000186A2.xml"""
+04/03/2024, 14:41:59;Error;unconverted data remains: +01:00

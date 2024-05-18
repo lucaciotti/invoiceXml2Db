@@ -1,0 +1,8 @@
+datatime;operation;info
+04/17/2024, 14:50:30;AutoImport;"1/2 -> ""\\srv0317\fe\Fatture inviate 2024\FE_2024-01-05_11-03-23_1-I_MAG1_C5_01053NPLE8.xml"""
+04/17/2024, 14:50:36;AutoImport;"2/2 -> ""\\srv0317\fe\Fatture inviate 2024\FE_2024-01-31_FM------_1_MAG1_C7_01073P59MI.xml"""
+04/17/2024, 14:50:48;AutoImport;"1/4 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT02002750483_00000186A2.xml"""
+04/17/2024, 14:50:53;AutoImport;"2/4 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT06628860964_1879221945_003058.xml"""
+04/17/2024, 14:51:02;AutoImport;"3/4 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT_01182120194_00000K4MGD_0005996.xml"""
+04/17/2024, 14:51:21;AutoImport;"4/4 -> ""D:\myProjects\pocodibuono\invoiceXml2Db\xml_files_pdb\passive\IT_00699130399_0000086jiE_202010009465.xml"""
+04/17/2024, 14:53:04;Error;replace() takes at least 2 arguments (1 given)

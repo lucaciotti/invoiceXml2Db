@@ -1,0 +1,85 @@
+https://stackoverflow.com/questions/53651409/writing-a-base64-string-to-file-in-python-not-working
+
+struttura:
+- FatturaElettronicaHeader
+    - CedentePrestatore (chi ha creato il documento)
+        - DatiAnagrafici
+            - IdFiscaleIVA
+                - IdPaese
+                - IdCodice (partita iva univoca)
+            - Anagrafica
+                - Denominazione (nome della ditta)
+            - RegimeFiscale
+        - Sede
+            - Indirizzo
+            - CAP
+            - Comune
+            - Provincicia
+            - Nazione
+        - IscrizioneREA
+            - Ufficio
+            - NumeroREA
+            - SocioUnico
+            - StatoLiquidazione
+    - CessionarioCommittente ( destinatario fattura o documento)
+        - DatiAnagrafici
+            - CodiceFiscale
+            - IdFiscaleIVA
+                - IdPaese
+                - IdCodice (partita iva univoca)
+            - Anagrafica
+                - Denominazione (nome della ditta)
+            - RegimeFiscale
+        - Sede
+            - Indirizzo
+            - CAP
+            - Comune
+            - Provincicia
+            - Nazione
+- FatturaElettronicaBody
+    - DatiGenerali
+        - DatiGeneraliDocumento
+            - TipoDocumento
+            - Divisa (Valuta)
+            - Data (data fattura)
+            - Numero (numero doc)
+            - DatiBollo
+                - ImportoBollo
+            - DatiCassaPrevidenziale
+                - AlCassa
+                - ImportoContributoCassa
+            - ImportoTotaleDocumento
+    - DatiBeniServizi
+        - DettaglioLinee (++)
+            - NumeroLinea
+            - CodiceArticolo
+                - CodiceTipo
+                - CodiceValore (riferimento codice art)
+            - Descrizione
+            - Quantita
+            - PrezzoUnitario
+            - PrezzoTotale
+            - AliquotaIVA
+        
+        - DatiRiepilogo (++)
+            - AliquotaIVA
+            - ImponibileImporto
+            - Imposta
+            - EsigibilitaIVA
+    
+    - DatiPagamento
+        - CondizioniPagamento
+        - DettaglioPagamento
+            - ModalitaPagamento
+            - DataScadenzaPagamento
+            - ImportoPagamento
+            - IstitutoFinanziario
+            - IBAN
+            - ABI
+            - CAB
+
+    - Allegati
+        - NomeAttachment
+        - FormatoAttachment
+        - DescrizioneAttachment
+        - Attachment (base64 content file)

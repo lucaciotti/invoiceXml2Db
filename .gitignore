@@ -1,0 +1,8 @@
+*.db
+dist
+build
+attachments
+.venv
+*.spec
+__pycache__
+xml_files_pdb
